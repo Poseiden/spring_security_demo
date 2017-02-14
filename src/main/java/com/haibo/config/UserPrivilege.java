@@ -22,4 +22,12 @@ public class UserPrivilege {
     public String getName() {
         return name;
     }
+
+    public UserPrivilege(String name, List<String> privilegeCodes) {
+        this.privilegeCodes = privilegeCodes;
+        this.name = name;
+    }
+
+    public UserPrivilege() {
+    }
 }

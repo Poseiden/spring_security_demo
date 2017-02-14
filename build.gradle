@@ -31,6 +31,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.security:spring-security-web")
     compile("org.springframework.security:spring-security-config")
+    compile('org.springframework.boot:spring-boot-starter-test')
 
     testCompile("junit:junit")
 }
