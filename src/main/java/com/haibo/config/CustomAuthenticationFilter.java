@@ -7,7 +7,6 @@ import org.springframework.security.web.authentication.preauth.AbstractPreAuthen
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
